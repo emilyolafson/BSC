@@ -1,0 +1,2 @@
+#script used to generate images:
+./create_civet_image_qvalue_saashi_blue.sh /home/cic/olaemi/emilyO/Tissue_contrast/surf_reg_model_left.obj model_c_unsmoothed_maineffect_DX_left_p_adjust_masked.txt 1 0.05,0.00 /home/cic/olaemi/emilyO/Tissue_contrast/surf_reg_model_right.obj model_c_unsmoothed_maineffect_DX_right_p_adjust_masked.txt 1 0.05,0.01 DX_pvals

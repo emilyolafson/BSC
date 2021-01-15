@@ -1,0 +1,9 @@
+pvalues
+
+betas
+#1 main effect sex
+./create_civet_image_qvalue_saashi_virdis_betas.sh /home/cic/olaemi/emilyO/Tissue_contrast/surf_reg_model_left.obj /data/chamal/projects/emilyO/Tissue_contrast/analysis/revisions/mainfx/model_c_unsmoothed_maineffect_age_left_beta_masked.txt 1 -10,5 /home/cic/olaemi/emilyO/Tissue_contrast/surf_reg_model_right.obj /data/chamal/projects/emilyO/Tissue_contrast/analysis/revisions/mainfx/model_c_unsmoothed_maineffect_age_right_beta_masked.txt 1 -10,5 /data/chamal/projects/emilyO/Tissue_contrast/analysis/revisions/mainfx/age
+#2 sex stratified - F
+./create_civet_image_qvalue_saashi_virdis_betas.sh /home/cic/olaemi/emilyO/Tissue_contrast/surf_reg_model_left.obj /data/chamal/projects/emilyO/Tissue_contrast/analysis/revisions/mainfx/model_c_unsmoothed_maineffect_sex_left_beta_masked.txt 1 -5,5 /home/cic/olaemi/emilyO/Tissue_contrast/surf_reg_model_right.obj /data/chamal/projects/emilyO/Tissue_contrast/analysis/revisions/mainfx/model_c_unsmoothed_maineffect_sex_right_beta_masked.txt 1 -5,5 /data/chamal/projects/emilyO/Tissue_contrast/analysis/revisions/mainfx/sex
+
+./create_civet_image_qvalue_saashi_virdis_betas.sh /home/cic/olaemi/emilyO/Tissue_contrast/surf_reg_model_left.obj /data/chamal/projects/emilyO/Tissue_contrast/analysis/revisions/mainfx/model_c_unsmoothed_maineffect_age2_left_beta_masked.txt 1 -5,10 /home/cic/olaemi/emilyO/Tissue_contrast/surf_reg_model_right.obj /data/chamal/projects/emilyO/Tissue_contrast/analysis/revisions/mainfx/model_c_unsmoothed_maineffect_age2_right_beta_masked.txt 1 -5,10 /data/chamal/projects/emilyO/Tissue_contrast/analysis/revisions/mainfx/age2

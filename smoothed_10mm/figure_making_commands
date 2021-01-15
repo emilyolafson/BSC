@@ -1,0 +1,72 @@
+pvalues
+#1 main effectDX
+./create_civet_image_qvalue_saashi_red.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj DX_L.txt 1 0.05,0.01 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj DX_R.txt 1 0.05,0.01 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/1_maineffect_DX
+
+
+#2 sex stratified - F
+./create_civet_image_qvalue_saashi_red.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj DX_F_L.txt 1 0.05,0.01 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj DX_F_R.txt 1 0.05,0.01 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/2_maineffect_F_DX
+#3 sex stratified - M
+./create_civet_image_qvalue_saashi_red.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj DX_M_L.txt 1 0.05,0.01 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj DX_M_R.txt 1 0.05,0.01 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/3_maineffect_M_DX
+
+#4 main group severity
+./create_civet_image_qvalue_saashi_red.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj DX_SEV_L.txt 1 0.05,0.01 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj DX_SEV_R.txt 1 0.05,0.01 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/4_severity_DX_wholegroup
+
+#5 female severity
+./create_civet_image_qvalue_saashi_red.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj DX_F_SEV_L.txt 1 0.05,0.01 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj DX_F_SEV_R.txt 1 0.05,0.01 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/5_severity_DX_F
+#6 male severity
+./create_civet_image_qvalue_saashi_red.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj DX_M_SEV_L.txt 1 0.05,0.01 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj DX_M_SEV_R.txt 1 0.05,0.01 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/6_severity_DX_M
+
+#7 age centered
+#4
+ ./create_civet_image_qvalue_saashi_red.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj DX_4_L.txt 1 0.05,0.01 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj DX_4_R.txt 1 0.05,0.01 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/7_age_centered_4
+#8
+./create_civet_image_qvalue_saashi_red.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj DX_8_L.txt 1 0.05,0.01 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj DX_8_R.txt 1 0.05,0.01 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/7_age_centered_8
+#12
+./create_civet_image_qvalue_saashi_red.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj DX_12_L.txt 1 0.05,0.01 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj DX_12_R.txt 1 0.05,0.01 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/7_age_centered_12
+#16
+./create_civet_image_qvalue_saashi_red.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj DX_16_L.txt 1 0.05,0.01 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj DX_16_R.txt 1 0.05,0.01 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/7_age_centered_16
+#20
+./create_civet_image_qvalue_saashi_red.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj DX_20_L.txt 1 0.05,0.01 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj DX_20_R.txt 1 0.05,0.01 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/7_age_centered_20
+#24
+./create_civet_image_qvalue_saashi_red.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj DX_24_L.txt 1 0.05,0.01 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj DX_24_R.txt 1 0.05,0.01 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/7_age_centered_24
+#28
+./create_civet_image_qvalue_saashi_red.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj DX_28_L.txt 1 0.05,0.01 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj DX_28_R.txt 1 0.05,0.01 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/7_age_centered_28
+#32
+./create_civet_image_qvalue_saashi_red.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj DX_32_L.txt 1 0.05,0.01 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj DX_32_R.txt 1 0.05,0.01 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/7_age_centered_32
+
+#10 age_stratified
+./create_civet_image_qvalue_saashi_red.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj DX_over18_L.txt 1 0.05,0.01 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj DX_over18_R.txt 1 0.05,0.01 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/10_over18
+./create_civet_image_qvalue_saashi_red.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj DX_under18_L.txt 1 0.05,0.01 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj DX_under18_R.txt 1 0.05,0.01 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/10_under18
+
+# severity correlation
+#full group
+./create_civet_image_qvalue_saashi_red.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj DX_SEV_L.txt 1 0.05,0.01 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj DX_SEV_R.txt 1 0.05,0.01 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/severity_fullgroup
+./create_civet_image_qvalue_saashi_red.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj DX_F_SEV_L.txt 1 0.05,0.01 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj DX_F_SEV_R.txt 1 0.05,0.01 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/severity_female
+
+
+
+betas
+#1 main effect X
+./create_civet_image_qvalue_saashi_red_betas.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj /data/chamal/projects/emilyO/Tissue_contrast/analysis/main_effect/model_c_unsmoothed_maineffect_DX_left_beta_masked.txt 1 0,0.36 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj /data/chamal/projects/emilyO/Tissue_contrast/analysis/main_effect/model_c_unsmoothed_maineffect_DX_right_beta_masked.txt 1 0,0.36 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/1_maineffect_DX_beta
+#2 sex stratified - F
+./create_civet_image_qvalue_saashi_red_betas.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj /data/chamal/projects/emilyO/Tissue_contrast/analysis/sex_stratified/model_c_unsmoothed_sex_stratified_F_DX_left_beta_masked.txt 1 0,0.65 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj /data/chamal/projects/emilyO/Tissue_contrast/analysis/sex_stratified/model_c_unsmoothed_sex_stratified_F_DX_right_beta_masked.txt 1 0,0.65 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/2_maineffect_F_DX_beta
+# 3 sex stratified - M
+./create_civet_image_qvalue_saashi_red_betas.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj /data/chamal/projects/emilyO/Tissue_contrast/analysis/sex_stratified/model_c_unsmoothed_sex_stratified_M_DX_left_beta_masked.txt 1 0,0.65 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj /data/chamal/projects/emilyO/Tissue_contrast/analysis/sex_stratified/model_c_unsmoothed_sex_stratified_M_DX_right_beta_masked.txt 1 0,0.65 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/3_maineffect_M_DX_beta
+#4 age stratifed - over 18
+/data/chamal/projects/emilyO/Tissue_contrast/analysis/age_stratified/model_c_unsmoothed_age_stratified_over18_DX_left_beta_masked.txt
+# 4 age stratified - under 18
+./create_civet_image_qvalue_saashi_red_betas.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj /data/chamal/projects/emilyO/Tissue_contrast/analysis/age_stratified/model_c_unsmoothed_age_stratified_under18_DX_left_beta_masked.txt 1 0,0.62 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj /data/chamal/projects/emilyO/Tissue_contrast/analysis/age_stratified/model_c_unsmoothed_age_stratified_under18_DX_right_beta_masked.txt 1 0,0.62 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/10_age_under18_betas
+
+
+# main effect DX forest plots
+/data/chamal/projects/emilyO/Tissue_contrast/analysis/main_effect/Forest_plot_code_Emily_MaineffectDX.R
+# sex stratified forest plots
+
+# age-centered trajectory
+
+# correlation with severity - full group
+/data/chamal/projects/emilyO/Tissue_contrast/analysis/severity/severity_correlation_plot.R
+
+
+#CT maps
+./create_civet_image_qvalue_saashi_red.sh /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_left.obj CT_left_p_adjust_combinedFDR.txt 1 0.05,0.01 /opt/quarantine/CIVET/1.1.12/build/CIVET-1.1.12/models/surf_reg_model_right.obj CT_right_p_adjust_combinedFDR.txt 1 0.05,0.01 /data/chamal/projects/emilyO/Tissue_contrast/figures/paper/oct12/maineffect_DX_CT

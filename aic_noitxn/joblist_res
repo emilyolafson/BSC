@@ -1,0 +1,5 @@
+Rscript /data/chamal/projects/emilyO/Tissue_contrast/analysis/revisions/AIC_Age_model_c_unsmoothed_res.R
+Rscript /data/chamal/projects/emilyO/Tissue_contrast/analysis/revisions/AIC_Age2_model_c_unsmoothed_res.R
+Rscript /data/chamal/projects/emilyO/Tissue_contrast/analysis/revisions/AIC_FIQ_model_c_unsmoothed_res.R
+Rscript /data/chamal/projects/emilyO/Tissue_contrast/analysis/revisions/AIC_Sex_model_c_unsmoothed_res.R
+
